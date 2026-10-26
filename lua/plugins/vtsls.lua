@@ -8,6 +8,7 @@ return {
         vtsls = {
           settings = {
             typescript = {
+              tsserver = { maxTsServerMemory = 8192 },
               inlayHints = {
                 parameterNames = { enabled = "none" },
                 parameterTypes = { enabled = false },
